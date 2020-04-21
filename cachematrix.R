@@ -36,5 +36,4 @@ cacheSolve <- function(mat, ...)
   invMat <- solve(dataMat, ...)           #use solve function to inverse the matrix
   mat$setInvMat(invMat)                   #set the invertible matrix 
   return(invMat)                          #return the inverse matrix of 'mat'
-  
 }
